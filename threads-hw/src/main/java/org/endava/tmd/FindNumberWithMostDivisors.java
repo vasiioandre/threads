@@ -5,7 +5,7 @@ public class FindNumberWithMostDivisors {
         int maxDivisors = 0, number = 0;
         long startTime = System.nanoTime();
 
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= 100000; i++) {
             int count = 0;
             for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
